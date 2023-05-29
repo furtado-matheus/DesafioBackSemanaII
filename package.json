@@ -7,8 +7,8 @@
   "description": "desafio da semana 4",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/furtado-matheus/DesafioBackSemanaII/issues"
   },
-  "homepage": "https://github.com/furtado-matheus/DesafioBackSemanaII#readme"
+  "homepage": "https://github.com/furtado-matheus/DesafioBackSemanaII#readme",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }

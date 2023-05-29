@@ -1,15 +1,19 @@
 {
     "env": {
-      "browser": true,
-      "es2021": true
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
     },
     "extends": "google",
     "overrides": [],
     "parserOptions": {
-      "ecmaVersion": "latest"
+        "ecmaVersion": "latest"
     },
     "rules": {
-      "linebreak-style": ["error", "windows"]
+        /*"linebreak-style": ["error", "unix"]*/
+        "linebreak-style": [
+            "error",
+            "windows"
+        ]
     }
-  }
-  
+}
